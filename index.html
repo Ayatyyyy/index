@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de Ava Merzouk - Étudiante en informatique">
+    <title>CV - Ava Merzouk</title>
+    
+
+    
+    <style>
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f1f1f1;
+            color: #333;
+            line-height: 1.7;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e2e2e2;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #34495e;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: #e74c3c;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: #e74c3c;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            padding: 8px 0;
+            color: #555;
+        }
+
+        .important {
+            font-size: 1.2rem;
+            color: #e74c3c;
+            font-weight: 600;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #34495e;
+            color: white;
+            border-radius: 0 0 12px 12px;
+            margin-top: 40px;
+        }
+
+        
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .flex-container > div {
+            flex: 1 1 calc(50% - 30px);
+            min-width: 250px;
+        }
+
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 2.4rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .flex-container > div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>Ava Merzouk</h1>
+            <img src="photo.jpg" alt="Photo de Ava Merzouk" class="photo">
+
+            <p class="important">Étudiante en informatique | Passionnée par la cybersécurité</p>
+        </header>
+
+        
+        <section>
+            <h2>Contact</h2>
+            <div class="flex-container">
+                <div>
+                    <ul>
+                        <li><strong>Email :</strong> <a href="mailto:ava.merzouk@example.com">ava.merzouk@example.com</a></li>
+                        <li><strong>Téléphone :</strong> <a href="tel:+33612345678">+33 6 12 34 56 78</a></li>
+                        <li><strong>LinkedIn :</strong> <a href="#">linkedin.com/in/ava-merzouk</a></li>
+                        <li><strong>GitHub :</strong> <a href="#">github.com/ava-mz</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><strong>Dernière mise à jour :</strong> <time datetime="2025-02-13">13 février 2025</time></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formation Section -->
+        <section>
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>2024 - Présent :</strong> Licence en Informatique, Université de Strasbourg</li>
+                <li><strong>2021 - 2024 :</strong> Baccalauréat Scientifique, Alger</li>
+            </ul>
+        </section>
+
+        <!-- Expérience Professionnelle Section -->
+        <section>
+            <h2>Expérience Professionnelle</h2>
+            <ul>
+                <li><strong>2024 - Présent :</strong> Volontaire, Les Cop1 Strasbourg</li>
+                <li><strong>2023 :</strong> Caissière, Supermarché XYZ</li>
+                <li><strong>2022 :</strong> Nounou, Garde d'enfants à domicile</li>
+            </ul>
+        </section>
+
+        <!-- Compétences Section -->
+        <section>
+            <h2>Compétences</h2>
+            <ul>
+                <li><strong>Langages :</strong> HTML, CSS, Python</li>
+                <li><strong>Logiciels :</strong> LaTeX, VS Code, Git</li>
+                <li><strong>Langues :</strong> Français (C2), Anglais (C1), Arabe (C2)</li>
+            </ul>
+        </section>
+
+        <!-- Loisirs Section -->
+        <section>
+            <h2>Loisirs</h2>
+            <ul>
+                <li>Lecture </li>
+                <li>Fitness </li>
+                <li>Mode et stylisme </li>
+                <li>Cuisine </li>
+            </ul>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2025 Ava Merzouk - Tous droits réservés.</p>
+        </footer>
+    </div>
+</body>
+</html>
